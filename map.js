@@ -1,4 +1,3 @@
-<script>
     var mymap = L.map('map_streets').setView([22.564, 88.343], 13);
     
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYXJpaml0ODNzYXJrYXIiLCJhIjoiY2plbHFoeWxjNHN4azMzbzEzd2NwbG5leiJ9.SMsEl9MDkXoqxaqcRp_K8Q', {
@@ -54,5 +53,3 @@
       accessToken: 'pk.eyJ1IjoiYXJpaml0ODNzYXJrYXIiLCJhIjoiY2plbHFoeWxjNHN4azMzbzEzd2NwbG5leiJ9.SMsEl9MDkXoqxaqcRp_K8Q'
     }).addTo(mymap5);
 	var marker5 = L.marker([22.564, 88.343]).addTo(mymap5);
-	
-  </script>
